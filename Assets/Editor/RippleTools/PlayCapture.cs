@@ -108,6 +108,18 @@ namespace RippleTools
                     var p = shop.transform.position - shop.transform.forward * 2.6f + Vector3.up * 1.6f;  // the shop faces -forward
                     views.Add(("banana_shop", p, Quaternion.LookRotation(shop.transform.position + Vector3.up * 1.2f - p)));
                 }
+                // Close-ups of the local player's gorilla head (the model's forward axis may face either way).
+                foreach (var who in new[] { "Your Gorilla", "Your Reflection" })
+                {
+                    var gorilla = GameObject.Find(who);
+                    var head = gorilla ? gorilla.GetComponentsInChildren<Transform>(true).FirstOrDefault(t => t.name == "Head") : null;
+                    if (!head) continue;
+                    foreach (var side in new[] { 1f, -1f })
+                    {
+                        var p = head.position + head.forward * (0.7f * side) + Vector3.up * 0.05f;
+                        views.Add(($"{Safe(who)}_face_{(side > 0 ? "a" : "b")}", p, Quaternion.LookRotation(head.position - p)));
+                    }
+                }
                 var go = new GameObject("PlayCapture View");
                 var cam = go.AddComponent<Camera>();
                 cam.CopyFrom(main);
