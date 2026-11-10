@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
+  m_Name: Android
+  m_EditorClassIdentifier:
+  features:
+  - {fileID: 11400000, guid: ae5f03e43264dc64083f0a14366b78d7, type: 2}
+  - {fileID: 11400000, guid: b6890b8997554284ea7de3a3adcf817c, type: 2}
+  - {fileID: 11400000, guid: a899aecdd70a6c04f85cb3e8a167f0c9, type: 2}
+  - {fileID: 11400000, guid: 42a73a0e392400a479935ba600b56364, type: 2}
+  - {fileID: 11400000, guid: 27117181164828c4ebb67e7518c0fd78, type: 2}
+  - {fileID: 11400000, guid: 755cb5f285b3adb46b65512aa4ff30e5, type: 2}
+  - {fileID: 11400000, guid: bd8d187235e03b14d89cd84c7b0e157e, type: 2}
+  - {fileID: 11400000, guid: dd9eff6680721b24e943247de2b390b2, type: 2}
+  - {fileID: 11400000, guid: 72e186eaaed3395469d59a3e12907ef4, type: 2}
+  - {fileID: 11400000, guid: 5cf67a85d95beea43a375fc642430dea, type: 2}
+  - {fileID: 11400000, guid: 8a7db4a8ccf0a2548966fc0a26a1499f, type: 2}
+  - {fileID: 11400000, guid: 7c5d36bd1e416a043b8e55a9340410b0, type: 2}
+  - {fileID: 11400000, guid: 5e9e0e49a2266dc4abc54e3c7efb8235, type: 2}
+  - {fileID: 11400000, guid: 834d276dbcb02964bb93e08f8ae60a87, type: 2}
+  - {fileID: 11400000, guid: ae331ffbcda86884b82f5483692362b3, type: 2}
+  - {fileID: 11400000, guid: af5362ebe32b58a42bc99a978baddd55, type: 2}
+  - {fileID: 11400000, guid: 286c18a119fa93a4188cf37630bfd8ed, type: 2}
+  - {fileID: 11400000, guid: 2a7ca2462814a394c9b05627e5a94d6c, type: 2}
+  - {fileID: 11400000, guid: b0f801c41895d99428d0370c1d2b171f, type: 2}
+  customLoaderName:
+  m_renderMode: 1
+  m_latencyOptimization: 1
+  m_autoColorSubmissionMode: 1
+  m_colorSubmissionModes:
+    m_List: 00000000
+  m_depthSubmissionMode: 0
+  m_spacewarpMotionVectorTextureFormat: 0
+  m_optimizeBufferDiscards: 1
+  m_symmetricProjection: 0
+  m_optimizeMultiviewRenderRegions: 0
+  m_multiviewRenderRegionsOptimizationMode: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
+  m_foveatedRenderingApi: 1
+  m_useOpenXRPredictedTime: 0
